@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Lister</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/taskLister.jpeg">
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img src="images/taskLister.jpeg" alt="">
+            <!-- <h2>Task Lister</h2> -->
+        </div>
+
+        <div class="dateToday">
+            <!-- Dynamic date will be inserted here -->
+        </div>
+
+        <div class="todo-input-grid">
+            <input type="text" placeholder="To do..." class="inputTodo2">
+            <input type="date" placeholder="date" id="date" class="js-due-date-input">
+            <button class="addBtn addIt">Add</button>
+        </div>
+
+        <div class="message">
+            <!-- Error message will be shown here -->
+        </div>
+
+        <div class="js-todo-list todo-grid">
+            <!-- Todo items will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
